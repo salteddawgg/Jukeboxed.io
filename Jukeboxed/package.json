@@ -1,5 +1,5 @@
 {
-  "homepage":"http://www.jukeboxed.com/",
+  "homepage":"https://salteddawgg.github.io/Jukeboxed.io/",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.1",
