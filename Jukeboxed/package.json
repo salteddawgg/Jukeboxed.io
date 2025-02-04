@@ -6,7 +6,7 @@
     "mysql": "^2.18.1",
     "mysql2": "^3.11.5"
   },
-  "name": "jukeboxed.io",
+  "name": "jukeboxed_take2",
   "version": "1.0.0",
   "description": "this_is_a_test",
   "main": "server.js",
