@@ -1,4 +1,5 @@
 {
+  "homepage":"http://www.jukeboxed.com/",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.1",
@@ -10,8 +11,12 @@
   "description": "this_is_a_test",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "node server.js",
+    "build": "node-scripts build",
+    "test": "node-scripts test",
+    "eject": "node-scripts eject"
   },
   "author": "Talon Denton",
   "license": "ISC"
