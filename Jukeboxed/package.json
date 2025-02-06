@@ -14,9 +14,10 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "node server.js",
-    "build": "node-scripts build",
+    "build": "npm run uild",
     "test": "node-scripts test",
-    "eject": "node-scripts eject"
+    "eject": "node-scripts eject",
+    "clean_build":"npm run clean && npm run build"
   },
   "author": "Talon Denton",
   "license": "ISC"
