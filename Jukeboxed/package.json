@@ -14,7 +14,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "node server.js",
-    "build": "npm run uild",
+    "build": "npm run build",
     "test": "node-scripts test",
     "eject": "node-scripts eject",
     "clean_build":"npm run clean && npm run build"

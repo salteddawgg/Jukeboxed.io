@@ -173,6 +173,11 @@ app.get('/artists/discovery', (req, res) => {
     });
 });
 
+//404 page for not path not matching, i mean dude, you know what a 404 is
+app.use((req,res, next) => {
+    res.status(404).sendFile(path.join(__dirname,'404.html'));
+});
+
 // Start server
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);

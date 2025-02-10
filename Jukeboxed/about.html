@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Jukeboxed</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Full viewport height */
+        }
+
+        /* Sidebar style */
+        nav {
+            width: 200px;
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            height: 100%;
+            padding-top: 20px;
+        }
+
+        nav .logo-section {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+
+        nav .logo-section img {
+            width: 60px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        nav a {
+            padding: 15px;
+            text-align: left;
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+
+        nav a:hover {
+            background-color: darkred;
+        }
+
+        /* Main content */
+        .main-content {
+            margin-left: 200px; /* Account for sidebar width */
+            padding: 20px;
+            flex: 1;
+            background-color: #f0f0f0;
+        }
+
+        /* Header with logo */
+        header {
+            background-color: darkred;
+            text-align: center;
+            padding: 20px 10px; /* Padding for space around the logo */
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        header img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        header h2 {
+            margin: 10px 0 0 0;
+            font-size: 20px;
+        }
+
+        /* Footer */
+        footer {
+            padding: 5px 20px; /* Reduce padding to make it less tall */
+            background-color: black;
+            color: white;
+            text-align: center;
+            width: 100%;
+            position: flex;
+            bottom: 0;
+            left: 0;
+            padding-bottom: 100px;
+            height: 40px;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+<!-- Sidebar -->
+<nav>
+    <div class="logo-section">
+        <img src="images\logo-white.png" alt="Logo">
+        <span><a target="_blank" href="main.html" style="color: white; text-decoration: none;"><b>Jukeboxed</b></a></span>
+    </div>
+    <a href="main.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="page2.html">Featured Songs</a>
+    <a href="page3.html">Contact Us</a>
+    <a href="page4.html">Discover Artists</a>
+    <a href="search.html">Discover Songs</a>
+
+</nav>
+<div class="main-content">
+    <header>
+        <!-- Logo and text -->
+        <img src="images\logo-white.png" alt="Jukeboxed Logo">
+        <h2>Welcome to Jukeboxed</h2>
+    </header>
+    
+<!-- Main content -->
+    <h1>What is Jukeboxed?</h1>
+    <p>Jukeboxed is your ultimate destination for discovering and experiencing music like never before. Born from a passion for bringing together diverse music lovers, Jukeboxed offers a curated collection of songs that span genres, eras, and emotions. Whether you're a fan of classic rock anthems, the latest indie hits, or underground electronic beats, Jukeboxed is designed to introduce you to the freshest sounds and hidden gems.</p>
+    
+    <p>Our platform not only provides you with an expansive music library but also highlights featured artists, exclusive tracks, and behind-the-scenes insights into the stories behind the music. Jukeboxed is a space where artists can share their passion, and fans can engage, comment, and even contribute to playlist collaborations. With weekly updates and fresh content, we keep the music discovery experience exciting and unpredictable.</p>
+    
+    <p>Our mission is simple: to amplify the connection between artists and listeners, and to make every song a memorable experience. Tune in, explore, and get Jukeboxed today!</p>
+
+    <h2 style="text-align: center;">this may be copy text from our main page</h2>
+    <h2 style="text-align: center; margin-bottom: 15px;">But you can't prove that!</h2>
+
+</article>
+
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>Copyright &copy; 2024 All Rights Reserved - <span>Jukeboxed LLC</span></p>
+</footer>
+
+</body>
+</html>
