@@ -1,0 +1,24 @@
+{
+  "homepage":"https://salteddawgg.github.io/jukeboxed_take2/",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.5"
+  },
+  "name": "jukeboxed_take2",
+  "version": "1.0.0",
+  "description": "this_is_a_test",
+  "main": "server.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "node server.js",
+    "build": "npm run build",
+    "test": "node-scripts test",
+    "eject": "node-scripts eject",
+    "clean_build":"npm run clean && npm run build"
+  },
+  "author": "Talon Denton",
+  "license": "ISC"
+}
